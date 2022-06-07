@@ -88,11 +88,15 @@
             <br>
             <br>
             <label for="contact methods">Choose a contact method:</label>
-            <select name="contach methods" id="contact methods">
+            <select name="contact methods" id="contact methods" onchange="setContact()">
                 <option value="Phone">Phone</option>
                 <option value="Email">Email</option>
                 <option value="Address">Address</option>
             </select>
+            <br>
+            <br>
+            <br>
+            <h3 id="contact">(012)-345-6789</h3>
         </div>
     </main>
     <section id="MR"></section>
@@ -107,6 +111,7 @@
             copyright &copy; 2022 Sheheryar Saeed
         </h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
