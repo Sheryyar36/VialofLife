@@ -31,11 +31,11 @@ body {
 
 #UL {
     border: 5px solid rgb(36, 63, 63);
-    border-radius: 3px;
+    border-radius: 20px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oINsKEo4HIDI9Ro3BNxUS6k5_tOIqHUuxQ&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
 
 #UM {
     border: 5px solid rgb(36, 63, 63);
@@ -43,31 +43,31 @@ body {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be24da42-2a51-45b9-9ed6-65d0eac99bf1/d17lglz-9ea6daf0-780e-4888-870d-a8814c7e40a4.jpg/v1/fill/w_600,h_450,q_75,strp/shiney_bar_wood___texture_by_psych_stock_d17lglz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwIiwicGF0aCI6IlwvZlwvYmUyNGRhNDItMmE1MS00NWI5LTllZDYtNjVkMGVhYzk5YmYxXC9kMTdsZ2x6LTllYTZkYWYwLTc4MGUtNDg4OC04NzBkLWE4ODE0YzdlNDBhNC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iTWsO_S74K57jnYNVdKLAQxi2DtgJ8pJRjbbos5-mac);
     background-repeat: no-repeat;
     background-size: cover;
-}   
+}
 
 #UR {
     display: flex;
     border: 5px solid rgb(36, 63, 63);
-    border-radius: 3px;
+    border-radius: 20px;
     justify-content: space-around;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQenC10uC18dE_ASbnRki_UWRy6N3etlQEbYA&usqp=CAU)
 }
 
 #ML {
     border: 5px solid rgb(36, 63, 63);
-    border-radius: 3px;
+    border-radius: 20px;
     background-image: url(https://images.vexels.com/media/users/3/200350/isolated/preview/c9299b4085337a821181e090ba5f1309-caduceus-detailed-monochrome.png);
     background-blend-mode: normal;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-color: rgb(212, 150, 96);;
+    background-color: rgb(212, 150, 96);
+    ;
 }
 
 #MM {
-    background-image: url(http://assets.stickpng.com/images/580b585b2edbce24c47b2463.png);
+    background-image: url(scroll.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: normal;
     background-color: rgb(137, 226, 192);
 }
 
@@ -77,6 +77,7 @@ h1 {
 }
 
 p {
+    font-family: 'Kalam', cursive;
     text-align: center;
     margin-top: 100px;
     margin-left: 200px;
@@ -87,7 +88,7 @@ p {
 
 #MR {
     border: 5px solid rgb(36, 63, 63);
-    border-radius: 3px;
+    border-radius: 20px;
     background-image: url(https://images.vexels.com/media/users/3/200350/isolated/preview/c9299b4085337a821181e090ba5f1309-caduceus-detailed-monochrome.png);
     background-blend-mode: normal;
     background-size: 100% 100%;
@@ -98,18 +99,26 @@ p {
 #BL {
     border: 5px solid rgb(36, 63, 63);
     border-radius: 3px;
+    background-image: url(https://www.seekpng.com/png/detail/130-1306571_telephone-icon-png-green-green-phone-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-justify:auto;
+    text-align: center;
 }
 
 #BM {
     border: 5px solid rgb(36, 63, 63);
-    border-radius: 3px;
+    border-radius: 20px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be24da42-2a51-45b9-9ed6-65d0eac99bf1/d17lglz-9ea6daf0-780e-4888-870d-a8814c7e40a4.jpg/v1/fill/w_600,h_450,q_75,strp/shiney_bar_wood___texture_by_psych_stock_d17lglz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUwIiwicGF0aCI6IlwvZlwvYmUyNGRhNDItMmE1MS00NWI5LTllZDYtNjVkMGVhYzk5YmYxXC9kMTdsZ2x6LTllYTZkYWYwLTc4MGUtNDg4OC04NzBkLWE4ODE0YzdlNDBhNC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iTWsO_S74K57jnYNVdKLAQxi2DtgJ8pJRjbbos5-mac);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #BR {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    border: 5px solid rgb(36, 63, 63);
+    border: 20px solid rgb(14, 77, 114);
     border-radius: 3px;
 }
 
